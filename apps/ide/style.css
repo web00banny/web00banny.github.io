@@ -6,7 +6,7 @@ topBar{
 }
 
 titleBar{
-  display: collum;
+  display: column;
   flex-direction: row;
   
   width: 100%;
@@ -17,7 +17,7 @@ titleBar{
 
 menuBar{
   display: flex;
-  flex-direction: collum;
+  flex-direction: column;
   
   width: 100%;
   heigth: 20px;
@@ -25,9 +25,15 @@ menuBar{
   background-color: yellow;
 }
 
+menu{ 
+  display: column;
+  
+  width: 100%;
+}
+
 standardPanel{
   display: flex;
-  flex-direction: collum;
+  flex-direction: column;
   
   width: 100%;
   heigth: 20px;
