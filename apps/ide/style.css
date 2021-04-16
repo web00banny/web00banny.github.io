@@ -27,7 +27,8 @@ menuBar{
 }
 
 menu{ 
-  display: column;
+  display: flex;
+  
   
   width: 100%;
 }
