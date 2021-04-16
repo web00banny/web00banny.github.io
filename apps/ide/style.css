@@ -1,0 +1,58 @@
+topBar{
+  display: flex;
+  flex-direction: row;
+  
+  width: 100%;
+  heigth: 100%;
+}
+
+titleBar{
+  display: collum;
+  flex-direction: row;
+  
+  width: 100%;
+  heigth: 10px;
+  
+  background-color: red;
+}
+
+menuBar{
+  display: flex;
+  flex-direction: collum;
+  
+  width: 100%;
+  heigth: 20px;
+  
+  background-color: yellow;
+}
+
+standardPanel{
+  display: flex;
+  flex-direction: collum;
+  
+  width: 100%;
+  heigth: 20px;
+  
+  background-color: green;
+}
+
+standardPanel{
+  display: none;
+}
+
+formattingPanel{
+  display: none;
+}
+*/
+  <leftMenu></leftMenu>
+  <workPalce>
+   <tabBar></tabBar>
+   <workArea>
+    <markup></markup>
+    <lineNum></lineNum>
+    <textEditor contenteditable="true"></textEditor>
+   </workArea>
+  </workPlace
+  <bottomBar>
+   <statusBar></statusBar>
+   </bottomBar>/*
