@@ -7,8 +7,8 @@ topBar{
 }
 
 titleBar{
-  display: column;
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
   
   width: 100%;
   heigth: 10px;
