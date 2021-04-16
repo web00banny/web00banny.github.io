@@ -1,5 +1,6 @@
 topBar{
   display: flex;
+  flex-direction: column;
   
   width: 100%;
   heigth: 100%;
